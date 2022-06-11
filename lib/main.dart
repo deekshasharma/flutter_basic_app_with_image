@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: const Text('Kumi - The little fox'),
       ),
         body: const Center(child: Image(image: AssetImage('images/kumi.jpeg'))),
+        backgroundColor: Colors.grey,
     ));
   }
 }
